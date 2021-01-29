@@ -87,7 +87,7 @@ verilog: setup
 		mkdir -p $(PLACEROUTE_DIR)/verilog/$$cell
 		cp $(LIBRARIES)/$(SCLIB)/latest/cells/$$cell/*.v $(PLACEROUTE_DIR)/verilog/$$cell
 		sed -i "s/default_nettype none/default_nettype wire/" $(PLACEROUTE_DIR)/verilog/$$cell/*
-		sed -i "s/..\/..\/models/..\/..\/..\/..\/..\/libraries\/sky130_fd_sc_hd\/latest\/models\//" $(PLACEROUTE_DIR)/verilog/$$cell/*
+		sed -i "s/..\/..\/models/..\/..\/..\/..\/..\/..\/libraries\/sky130_fd_sc_hd\/latest\/models\//" $(PLACEROUTE_DIR)/verilog/$$cell/*
 	done
 	date > $@
 
