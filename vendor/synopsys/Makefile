@@ -30,6 +30,9 @@ MW_OPTIONS = ""
 setup: setup_$(SCLIB)
 	date > $@
 
+icc2_console:
+	icc2_shell -f ./${SCRIPTS}/pnr_setup.tcl
+
 setup_$(SCLIB):
 	test -d $(WORK_DIR) || mkdir -p $(WORK_DIR)
 	test -d $(LOGS) || mkdir -p $(LOGS)

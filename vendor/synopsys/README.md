@@ -14,6 +14,9 @@ cd vendor/synopsys
 make sky130_fd_sc_hd
 
 # Replace sc_hd with [sc_hdll, sc_hs, sc_ls or sc_ms] to compile other SC variants
+
+# To place and route sample netlist 
+make icc2_console
 ```
 
 Directory structure
