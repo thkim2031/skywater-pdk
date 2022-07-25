@@ -1,4 +1,4 @@
-
+#source ./setup.tcl
 set SCLIB $::env(SCLIB)
 set SkyPlaceRoute "PlaceRoute/"
 

@@ -1,4 +1,4 @@
-
+source ./setup.tcl
 source ${ROOT}/scripts/util.tcl
 
 check_var TARGET_LIB_DIR

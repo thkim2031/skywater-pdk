@@ -1,5 +1,5 @@
 ## Library compiler script
-
+source ./setup.tcl
 source ${ROOT}/scripts/util.tcl
 
 check_var SCLIB
