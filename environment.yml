@@ -25,5 +25,5 @@ dependencies:
 - netlistsvg
 # Packages installed from PyPI
 - pip:
-  - -r file:requirements.txt
-  - -r file:docs/requirements.txt
+  - -r requirements.txt
+  - -r docs/requirements.txt
